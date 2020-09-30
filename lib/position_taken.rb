@@ -3,13 +3,13 @@ def position_taken?(board, index)
   # checking to see if the spot empty
   if board[index] == (" ")
     false
-  elsif board[index] == ("")
+  if board[index] == ("")
     false
-  elsif board[index] == (nil)
+  if board[index] == (nil)
     false
-  elsif board[index] == ("X")
+  if board[index] == ("X")
     true
-  elsif board[index] == ("O")
+  if board[index] == ("O")
     true
   end
 end
